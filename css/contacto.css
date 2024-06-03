@@ -25,8 +25,9 @@ body {
 .navbar .navbar-nav .nav-item .nav-link {
     color: white;
 }
-.navbar .navbar-nav .nav-item .nav-link:hover{
-    font-weight: bold ;
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    font-weight: bold;
 }
 
 /*Formulario*/
@@ -36,7 +37,7 @@ body {
     max-width: 1100px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -81,5 +82,20 @@ body {
     border-radius: 3px;
     cursor: pointer;
     transition: all 400ms ease;
-    
+
+}
+
+.btn-enviar:hover {
+    background-color: rgb(204, 111, 176);
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
