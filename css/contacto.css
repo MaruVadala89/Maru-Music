@@ -9,3 +9,19 @@ body {
     min-height: 100vh;
     background-color: #d6e7d8 !important;
 }
+
+/*Barra de navegacion*/
+
+.custom-pink-bg {
+    background-color: rgba(116, 66, 66, 0.7);
+}
+
+.navbar-brand {
+    padding-left: 1rem;
+    color: white !important;
+    font-style: oblique;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+}
