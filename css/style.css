@@ -20,3 +20,30 @@
 .navbar .navbar-nav .nav-item .nav-link:hover {
     font-weight: bold;
 }
+
+.banner {
+    background: url(/img/banner.png);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.custom-container, .musica-contenedor {
+    background-color: rgb(228, 197, 221);
+}
+
+.photo,
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img, video {
+    padding: 10px;
+    margin: auto;
+    border-radius: 50px;
+}
